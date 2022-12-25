@@ -9,7 +9,7 @@ public class ReadFromFile {
 		
 		try {
 			
-			File obj = new File("project_file.txt");
+			File obj = new File("project_file2.txt");
 			Scanner sc = new Scanner(obj);
 					
 			System.out.println("\nReading from the file.");

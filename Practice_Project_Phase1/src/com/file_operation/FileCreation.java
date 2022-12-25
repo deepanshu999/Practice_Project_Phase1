@@ -10,7 +10,7 @@ public class FileCreation {
 		
 		try {
 			
-			File file = new File("project_file.txt");
+			File file = new File("project_file2.txt");
 			
 			if(file.createNewFile())
 				System.out.println("\nFile " + file.getName() +" created successfully");

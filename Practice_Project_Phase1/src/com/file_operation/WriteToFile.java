@@ -10,7 +10,7 @@ public class WriteToFile {
 		
 		try {
 			
-		   FileWriter Writer = new FileWriter("project_file.txt");       //Write to a file.
+		   FileWriter Writer = new FileWriter("project_file2.txt");       //Write to a file.
 		   Scanner sc = new Scanner(System.in);
 		   
 		   System.out.println("\nFile opened for Writing.\nNow you can write\n");

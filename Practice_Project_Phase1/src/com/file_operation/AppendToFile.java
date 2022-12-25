@@ -7,12 +7,12 @@ public class AppendToFile {
 	
 	public static void main(String[] args) {
 		
-		File file = new File("project_file.txt");
+		File file = new File("project_file2.txt");
 		FileWriter Writer = null;
 		
 		try {
 			
-			String text = "I am a Software Engineer.";
+			String text = " I work at CISCO.";
 			Writer = new FileWriter(file,true);
 			Writer.write(text);
 			System.out.println("\nAppended Successfully");
