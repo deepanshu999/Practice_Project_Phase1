@@ -59,6 +59,7 @@ public class ArithmeticCalculator {
 		int a,b;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter two numbers a and b:");
+		
 		a = sc.nextInt();
 		b = sc.nextInt();
 		Operation op = new Operation(a,b);
