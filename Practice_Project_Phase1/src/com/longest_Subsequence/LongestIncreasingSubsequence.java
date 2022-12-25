@@ -26,6 +26,7 @@ public class LongestIncreasingSubsequence {
                 largest = d[i];
             }
         }
+        
         int tmp = largest;
         ArrayList<Integer> subs = new ArrayList<Integer>(nums.length); 
         for (int i = d.length -1;i>=0;i--){
